@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+#
+# @raisedadead's config files
+# https://git.raisedadead.com/dotfiles
+#
+# Copyright: Mrugesh Mohapatra <https://raisedadead.com>
+# License: ISC
+#
+# File name: .zshrc.mac-os
+#
+#-----------------------------------------------------------
+
+#-----------------------------
+# Brewfile
+#-----------------------------
+
+export PATH="/usr/local/bin:/usr/local/sbin:~/bin:$PATH"
+if [ -f $(brew --prefix)/etc/brew-wrap ];then
+  source $(brew --prefix)/etc/brew-wrap
+fi
+
+#-----------------------------------------------------------
