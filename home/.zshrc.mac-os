@@ -20,3 +20,10 @@ if [ -f $(brew --prefix)/etc/brew-wrap ];then
 fi
 
 #-----------------------------------------------------------
+
+#-----------------
+# TODO: Sort these
+#-----------------
+
+export PATH="/usr/local/opt/node@8/bin:$PATH"
+
