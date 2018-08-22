@@ -19,11 +19,9 @@ if [ -f $(brew --prefix)/etc/brew-wrap ];then
   source $(brew --prefix)/etc/brew-wrap
 fi
 
-#-----------------------------------------------------------
-
-#-----------------
-# TODO: Sort these
-#-----------------
+#-----------------------------
+# Path
+#-----------------------------
 
 export PATH="/usr/local/opt/node@8/bin:$PATH"
-
+export PATH="/usr/local/opt/mongodb@3.6/bin:$PATH"
