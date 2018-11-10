@@ -23,5 +23,4 @@ fi
 # Path
 #-----------------------------
 
-export PATH="/usr/local/opt/node@8/bin:$PATH"
 export PATH="/usr/local/opt/mongodb@3.6/bin:$PATH"
