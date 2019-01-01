@@ -31,3 +31,16 @@ export PATH="/usr/local/opt/mongodb@3.6/bin:$PATH"
 if type brew &>/dev/null; then
   FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
 fi
+
+#-----------------------------
+# macOS Junk file cleanup
+#-----------------------------
+
+cleanup-junk-files() {
+  if [ -n "$1" ]
+  then
+      find . -name "$1" -type f -delete
+  else
+      find . -name '.DS_Store' -type f -delete
+  fi
+}
