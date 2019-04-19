@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+#
+# @raisedadead's config files
+# https://git.raisedadead.com/dotfiles
+#
+# Copyright: Mrugesh Mohapatra <https://raisedadead.com>
+# License: ISC
+#
+# File name: .zshrc.zplug.mac-os
+#
+#-----------------------------------------------------------
+
+zplug "tysonwolker/iterm-tab-colors"
