@@ -16,10 +16,6 @@ module.exports = {
           initialWorkingDirectory: "~/DEV"
       },
 
-      hyperTransparentDynamic: {
-          alpha: 0.9 // default 50%
-      },
-
       // Choose either "stable" for receiving highly polished,
       // or "canary" for less polished but more frequent updates
       updateChannel: "stable",
@@ -141,7 +137,6 @@ module.exports = {
       "hyper-quit",
       "hyper-snazzy",
       "hyper-tabs-enhanced",
-      "hyper-transparent-dynamic",
       "hypercwd",
       "hyperline",
       "hyperlinks",
