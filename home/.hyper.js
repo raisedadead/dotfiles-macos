@@ -12,7 +12,7 @@ module.exports = {
       closeAlign: "right"
     },
 
-    opacity: 0.9,
+    opacity: 1,
 
     hypercwd: {
       initialWorkingDirectory: "~/DEV"
@@ -23,17 +23,17 @@ module.exports = {
     updateChannel: "stable",
 
     // default font size in pixels for all tabs
-    fontSize: 16,
+    fontSize: 18,
 
     // font family with optional fallbacks
     fontFamily:
-      '"Dank Mono","Source Code Pro", Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
+      '"Source Code Pro", Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
 
     // default font weight: 'normal' or 'bold'
     fontWeight: "normal",
 
     // font weight for bold characters: 'normal' or 'bold'
-    fontWeightBold: "normal",
+    fontWeightBold: "bold",
 
     // terminal cursor background color and opacity (hex, rgb, hsl, hsv, hwb or cmyk)
     cursorColor: "rgba(248,28,229,0.8)",
