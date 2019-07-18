@@ -23,7 +23,8 @@ fi
 # Path
 #-----------------------------
 
-export PATH="/usr/local/opt/mongodb@3.6/bin:$PATH"
+export PATH="/usr/local/opt/mongodb-community@3.6/bin:$PATH"
+export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
 
 #-----------------------------
 # Brew Completions for zsh
