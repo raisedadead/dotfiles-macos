@@ -1,5 +1,5 @@
-# dotfiles-mac-os
+# dotfiles-macos
 
-> Custom stuff for macOS
+> A dotfiles castle for macOS
 
-Main dotfiles: <https://github.com/raisedadead/dotfiles>
+Primary castle: <https://github.com/raisedadead/dotfiles>
