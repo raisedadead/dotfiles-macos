@@ -34,13 +34,6 @@ if type brew &>/dev/null; then
 fi
 
 #-----------------------------
-# Starship Prompt for zsh
-#-----------------------------
-if type starship &>/dev/null; then
-  eval "$(starship init zsh)"
-fi
-
-#-----------------------------
 # macOS Junk file cleanup
 #-----------------------------
 
