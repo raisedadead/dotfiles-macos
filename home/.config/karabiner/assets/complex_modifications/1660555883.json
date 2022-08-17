@@ -1,0 +1,26 @@
+{
+  "title": "Map New Email to Chrome DevTools",
+  "rules": [
+    {
+      "description": "Cmd+Shift+I to open DevTools",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": ["left_gui", "left_shift"]
+            },
+            "key_code": "i"
+          },
+          "to": [
+            {
+              "repeat": false,
+              "key_code": "i",
+              "modifiers": ["left_gui", "left_alt"]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
