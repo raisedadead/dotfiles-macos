@@ -1,5 +1,5 @@
 {
-  "title": "Sane Home and End Keys",
+  "title": "Home and End Keys - Advanced",
   "rules": [
     {
       "description": "Home to Cmd + Left",
@@ -55,13 +55,18 @@
           "from": {
             "key_code": "home",
             "modifiers": {
-              "mandatory": ["left_shift"]
+              "mandatory": [
+                "left_shift"
+              ]
             }
           },
           "to": [
             {
               "key_code": "left_arrow",
-              "modifiers": ["shift", "left_gui"]
+              "modifiers": [
+                "shift",
+                "left_gui"
+              ]
             }
           ]
         }
